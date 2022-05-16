@@ -5,7 +5,7 @@
 
 Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia maya, peretas topi putih, dan spesialis penetrasi untuk menyelidiki kerentanan jaringan dan server. Karena ini adalah kerangka kerja sumber terbuka, ini dapat dengan mudah dikonfigurasi dan digunakan pada kebanyakan sistem operasi
 
-### CARA PENGINSTALLAN
+### CARA PENGINSTALLAN MANUAL
 
 * `pkg update && pkg upgrade -y`
 * `pkg install wget curl -y`
