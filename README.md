@@ -1,8 +1,6 @@
 [![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://rishavchanda.io)
 <p align="center"><img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/352/634/datas/original.gif" alt="error">
 
-Masih pambukaan nih, udah ane suguin cara install metasploit 🥱
-
 ## TENTANG METASPLOIT
 
 Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia maya, peretas topi putih, dan spesialis penetrasi untuk menyelidiki kerentanan jaringan dan server. Karena ini adalah kerangka kerja sumber terbuka, ini dapat dengan mudah dikonfigurasi dan digunakan pada kebanyakan sistem operasi
