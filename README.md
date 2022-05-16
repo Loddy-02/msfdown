@@ -5,17 +5,26 @@
 
 Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia maya, peretas topi putih, dan spesialis penetrasi untuk menyelidiki kerentanan jaringan dan server. Karena ini adalah kerangka kerja sumber terbuka, ini dapat dengan mudah dikonfigurasi dan digunakan pada kebanyakan sistem operasi
 
-### CARA PENGINSTALLAN MANUAL
+### PENGINSTALLAN MANUAL
+<pre>
+pkg update && pkg upgrade -y
+pkg install wget curl -y
+cd $HOME && wget https://raw.githubusercontent.com/Loddy-02/metasploit_termux/main/install.sh -q;bash install.sh
+</pre>
 
-* `pkg update && pkg upgrade -y`
-* `pkg install wget curl -y`
-* <pre>cd $HOME && wget https://raw.githubusercontent.com/Loddy-02/metasploit_termux/main/install.sh -q;bash install.sh</pre>
+### PENGINSTALAN OTOMATIS
 
-### FIX ERROR
+<pre>
+source <(curl -fsSl https://raw.githubusercontent.com/Loddy-02/msfdown/main/msfdown.sh)
+</pre>
 
-* <pre>rm -rf /data/data/com.termux/files/usr/bin/msfvenom</pre>
-* <pre>cd && cd metasploit-framework && ln -s $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/</pre>
-* <pre>sed -i '13,15 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/encryption_algorithm/functionable.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp256.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb</pre>
+### PEMBARUAN ERROR
+
+<pre>
+rm -rf /data/data/com.termux/files/usr/bin/msfvenom
+cd && cd metasploit-framework && ln -s $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
+sed -i '13,15 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/encryption_algorithm/functionable.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp256.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb
+</pre>
 
 ### BISA DIPAKAI :
 
@@ -26,6 +35,7 @@ Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia
 * Termux
 
 ### PERINGATAN :
+
 * Internet 600Mb
 * Memori internal 1GB
 * Ram 2GB
