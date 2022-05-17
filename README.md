@@ -9,7 +9,7 @@ Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia
 
 * pkg update && pkg upgrade -y
 * pkg install wget git bash -y
-* <pre>cd $HOME && wget https://raw.githubusercontent.com/Loddy-02/msfdown/main/msfdown.sh -q;bash install.sh</pre>
+* <pre>cd $HOME && wget https://raw.githubusercontent.com/Loddy-02/msfdown/main/msfdown.sh -q;bash msfdown.sh</pre>
 
 ### PENGINSTALAN OTOMATIS
 
