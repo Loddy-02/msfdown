@@ -13,7 +13,7 @@ Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia
 
 ### PENGINSTALAN OTOMATIS
 
-* <pre>source <(curl -fsSl https://raw.githubusercontent.com/Loddy-02/msfdown/main/msfdown.sh)</pre>
+* <pre>source <(curl -fsSl https://raw.githubusercontent.com/Loddy-02/msfdown/main/auto.sh)</pre>
 
 ### ERROR MSFCONSOLE
 
