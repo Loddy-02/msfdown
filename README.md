@@ -15,12 +15,19 @@ Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia
 
 * <pre>source <(curl -fsSl https://raw.githubusercontent.com/Loddy-02/msfdown/main/msfdown.sh)</pre>
 
-### PEMBARUAN ERROR
+### ERROR MSFCONSOLE
 
 <pre>
 rm -rf /data/data/com.termux/files/usr/bin/msfvenom
 cd && cd metasploit-framework && ln -s $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
 sed -i '13,15 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/encryption_algorithm/functionable.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp256.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp384.rb; sed -i '14 {s/^/#/}' /data/data/com.termux/files/usr/lib/ruby/gems/3.1.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/transport/server_host_key_algorithm/ecdsa_sha2_nistp521.rb
+</pre>
+
+### ERROR MSFVENOM
+
+<pre>
+rm -rf /data/data/com.termux/files/usr/bin/msfvenom
+cd && cd metasploit-framework && ln -s $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
 </pre>
 
 ### BISA DIPAKAI :
