@@ -2,7 +2,7 @@
 <p align="center"><img src="https://github.com/Loddy-02/msfdown/blob/main/image/20220519_013057.png" alt="error">
 
 ## TENTANG METASPLOIT
-1
+
 Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia maya, peretas topi putih, dan spesialis penetrasi untuk menyelidiki kerentanan jaringan dan server. Karena ini adalah kerangka kerja sumber terbuka, ini dapat dengan mudah dikonfigurasi dan digunakan pada kebanyakan sistem operasi
 
 ### PENGINSTALLAN MANUAL
