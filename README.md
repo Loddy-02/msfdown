@@ -12,7 +12,7 @@ Kerangka Metasploit adalah alat canggih yang dapat digunakan oleh penjahat dunia
 * <pre>cd $HOME && wget https://raw.githubusercontent.com/Loddy-02/msfdown/main/msfdown.sh -q;bash msfdown.sh</pre>
 
 ### VIDIO PENGINSTALLAN
-<p align="center"><a href="https://youtu.be/405qaBuH_HY"><img title="Loddy XP" src="https://user-images.githubusercontent.com/49580304/117566254-31801e00-b0d3-11eb-860d-5601b1adccb8.jpg"></a>
+<p align="center"><a href="https://youtu.be/405qaBuH_HY"><img title="Loddy XP" src="https://github.com/Loddy-02/msfdown/blob/main/image/20220610_125950.png"></a>
 </p>
 
 ### PENGINSTALAN OTOMATIS
